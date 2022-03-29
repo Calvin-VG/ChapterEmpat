@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialog.AlertDialogActivity">
+
+    <Button
+        android:id="@+id/btn_alert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alert standar"/>
+
+    <Button
+        android:id="@+id/btn_alert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alert standar action"/>
+
+    <Button
+        android:id="@+id/btn_alert3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alert standar action dismiss"/>
+
+    <Button
+        android:id="@+id/btn_latihan1_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="latihan 1"/>
+
+    <Button
+        android:id="@+id/btn_latihan2_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="latihan 2"/>
+
+    <Button
+        android:id="@+id/btn_custom_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alert dialog kostum"/>
+
+    <TextView
+        android:id="@+id/tv_nama_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_alert4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alert dialog fragment"/>
+</LinearLayout>
